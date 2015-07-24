@@ -149,15 +149,13 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    Trebuchet \
     AudioFX \
     Eleven \
     CMFileManager \
     LockClock \
     CMAccount \
     CMHome \
-    OTACenter
+    SudaLauncher
     
 # SuperSU
 PRODUCT_COPY_FILES += \
