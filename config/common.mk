@@ -222,6 +222,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.sf.omx-plugin=libffmpeg_omx.so \
     media.sf.extractor-plugin=libffmpeg_extractor.so
 
+# Use all common apps
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/cm/prebuilt/common/app,system/app)
+
 # These packages are excluded from user builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
