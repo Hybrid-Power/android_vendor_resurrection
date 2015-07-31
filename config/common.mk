@@ -150,12 +150,13 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     AudioFX \
+    SudaLauncher
     Eleven \
     CMFileManager \
     LockClock \
     CMAccount \
     CMHome \
-    SudaLauncher
+    OTACenter
     
 # SuperSU
 PRODUCT_COPY_FILES += \
