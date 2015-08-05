@@ -157,11 +157,6 @@ PRODUCT_PACKAGES += \
     CMAccount \
     CMHome \
     OTACenter
-
-# HFM Files
-PRODUCT_COPY_FILES += \
-	vendor/cm/prebuilt/etc/hosts.alt:system/etc/hosts.alt \
-	vendor/cm/prebuilt/etc/hosts.og:system/etc/hosts.og
     
 # SuperSU
 PRODUCT_COPY_FILES += \
@@ -287,8 +282,8 @@ ifdef CM_BUILDTYPE
         endif
     endif
 else
-    # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := Resurrection-Remix-LP-v5.5.2
+    # OFFICIAL Version Release of RR 
+    CM_BUILDTYPE := Resurrection-Remix-LP-v5.5.3
     CM_EXTRAVERSION :=
 endif
 
